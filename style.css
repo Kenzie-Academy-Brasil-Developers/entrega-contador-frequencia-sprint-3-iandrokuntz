@@ -5,20 +5,36 @@ body{
     align-items: center;
     text-align: center;
 }
-div{
+div #areatext{
+    display: flex;
+    flex-direction: column;
     padding-top: 30px;
-    font-size: 30px;
-    width: 80%;
+    font-size: 100px;
+    max-width: 70vw;
     height: 200px;
-}   
+}  
+
+
+section{
+    padding-top: 50px;
+}
 
 
 @media screen and (min-width:768px){
+    
     body{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        text-align: start;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    textarea{
+        width: 500px;
+    }
+    
+    section{
+        font-size: 40px;
+        line-height: 70px;
     }
 }
